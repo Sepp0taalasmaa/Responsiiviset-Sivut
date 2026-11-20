@@ -1,0 +1,23 @@
+
+:root {
+    --tausta1: #414141;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    background-color: var(--tausta1);
+    text-align: center;
+    font-size: 4em;
+    font-family: arial, sans-serif;
+}
+
+footer {
+    color: chartreuse;
+}
