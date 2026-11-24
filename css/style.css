@@ -17,8 +17,6 @@
 header {
     background-color: var(--tausta1);
     border-bottom: var(--raja) solid 10px;
-    font-size: 1em;
-    padding-bottom: 24px;
 }
 
 
@@ -29,17 +27,17 @@ header nav {
 
 header nav a {
     display: inline-block;
-    font-size: 1em;
+    font-size: 0.95em;
     text-decoration: none;
     color: var(--Linkit);
-    padding: 1em;
-    padding-top: 55px;
+    padding: 2px 5px 20px;
+    padding-top: 41px;
 }
 
 
 header .Kuva {
     float: left;
-    height: 100px;
+    height: 78px;
 }
 
 
@@ -51,8 +49,12 @@ header nav a:hover {
 
 main {
     font-size: 1.25em;
-    margin-left: 250px;
-    padding-right: 200px;
+    width: 90%;
+    max-width: 5000px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+
 }
 
 
@@ -69,10 +71,10 @@ main .ingressi {
 
 footer {
     text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     font-size: 1em;
-    margin-top: 90px;
-    padding-top: 30px;
-    padding-bottom: 26px;
     color: var(--Linkit);
     background-color: var(--tausta2);
 }
