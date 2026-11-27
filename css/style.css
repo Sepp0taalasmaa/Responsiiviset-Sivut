@@ -68,6 +68,25 @@ main .ingressi {
     padding: 20px;
 }
 
+table {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+
+th, td {
+    border: 1px solid;
+    padding: 10px;
+    text-align: left;
+}
+
+
+th {
+    font-weight: bold;
+}
+
 
 footer {
     text-align: center;
